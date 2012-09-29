@@ -584,6 +584,12 @@ a.sign-up-link{
 	padding:20px 25px 15px 30px;
 	}
 	
+.link-button:hover{
+	background:	url(../images/buttons-bg/link-bg-hover.png) repeat-x;
+	background-position:center;
+	position:relative;
+	}
+	
 .link-button-b{
 	background:	url(../images/buttons-bg/signupfb-bg.jpg) repeat-x;
 	background-position:center;
