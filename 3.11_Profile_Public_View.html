@@ -17,17 +17,21 @@
 <script type="text/javascript" src="js/jquery.min.js"></script>
 <script type="text/javascript" src="js/jQueryRotate.js"></script>
 <title>Untitled Document</title>
-
-<style type="text/css">
-.fancybox-iframe {width: 550px;}
-</style>
 <script type="text/javascript">
 	$(document).ready(function() {
 		$("#image").rotate(-8);
 	});
 </script>
+<script type="text/javascript" src="fancy/source/jquery.fancybox.js?v=2.0.6"></script>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$('.fancybox').fancybox();
+	});
+</script>
 
-
+<style type="text/css">
+.fancybox-iframe {width: 580px;}
+</style>
 </head>
 
 <body>
@@ -87,8 +91,8 @@
 					<div class="col-button">
 						<form name="form1" method="post" action="">
 							<div class="buttons">
-								<button type="submit" class="positive" name="follow"><img src="images/buttons-bg/plus.jpg" />Follow</button>
-								<button type="submit" class="positive" name="messages"><img src="images/buttons-bg/message.jpg" />Messages</button>
+								<button type="submit" class="positive follow" name="follow"><span>&nbsp;</span>Follow</button>
+								<button type="submit" class="positive" name="messages"><img src="images/buttons-bg/message.png" />Messages</button>
 							</div>
 						</form>
 					</div>
@@ -127,7 +131,7 @@
 					<div class="col-dd-c">
 						<img src="images/profile-icon/icon2.jpg" /><label>Normal Park MS (TN) Basketball</label> 
 					</div>
-					<div class="see-all"><a href="">See all</a></div>
+					<div class="see-all"><a href="#">See all</a></div>
 				</div>
 				
 				<div class="header-container"><h2>coached</h2></div>
@@ -145,7 +149,7 @@
 			<div id="colspace">&nbsp;</div>
 			<div class="right-content">
 				<!--row-2-->
-				<div class="header-container hcc"><h2>playbook <span>&nbsp;<a class="fancybox fancybox.iframe" href="3.16_Update(Video).html"><img src="images/buttons-bg/add2.jpg"  /></a></span></h2></div>
+				<div class="header-container hcc"><h2>playbook <span>&nbsp;<a class="fancybox fancybox.iframe" href="3.21_Lightbox.html"><img src="images/buttons-bg/add2.jpg"  /></a></span></h2></div>
 				<div class="column col2">
 					<div class="column-container">
 						<div class="rc-number">86</div>
@@ -226,7 +230,7 @@
 						</div>	
 					</div>
 				</div><!--end column col4 -->
-				<div class="see-all"><a href="">See all</a></div>
+				<div class="see-all"><a href="#">See all</a></div>
 			</div><!--end right content -->
 			
 			<!--row-4-->
@@ -318,7 +322,7 @@
 						</div>
 					</div>
 				</div><!--end column col4 -->
-				<div class="see-all"><a href="">See all</a></div>
+				<div class="see-all"><a href="#">See all</a></div>
 			</div><!--end right content -->
 			
 			<!--row-5-->

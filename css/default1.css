@@ -1,0 +1,70 @@
+/* CSS Document */
+
+body{
+	background:#1d1d1d url(../images/bg-top.jpg) repeat-x;
+	color:#000000;
+	}
+	
+h1,h2,h3{
+	color:#ffffff;
+	}
+.col-dd-b,
+.col-dd{
+	border-bottom:1px solid #1d1d1d;
+	}	
+.td-wrapper	
+	{
+	border-bottom:1px solid #1d1d1d;
+	}
+.see-all a{
+	color:#ffffff;
+	font-size:12px;
+	margin:0 auto;
+	padding-right:0px;
+	text-decoration:none;
+	}	
+.header-container-d{
+	height:89px;
+	text-align:left;
+	margin:0 auto;
+	padding:0px 0px 3px 0px;
+	vertical-align:bottom;
+	}
+	
+.header-container-e{
+	height:86px;
+	text-align:left;
+	margin:0 auto;
+	/*padding:0px 0px 3px 9px;*/
+	padding:0px 0px 3px 0px;
+	vertical-align:bottom;
+	}
+
+.header-container-c h2,
+.header-container h2, 
+.header-container h1, 
+.header-container-b h3{
+	color:#ffffff;
+	}	
+
+
+.column-container-b,
+.column-container{
+	background:#eaeaea;
+	}	
+
+	
+
+/*	*/
+.footer	,
+.footerWrapper{
+	background:	url(../images/footerbg.jpg) repeat-x;
+	}
+	
+#playbookMenu-link-c{
+	color:#FFFFFF;
+	}
+.playbook-menu a:hover.playbookMenu-link-b{
+	background:none;
+	color:#ffffff;
+	}

@@ -1,0 +1,59 @@
+/* CSS Document */
+
+.status{background-image: url(../../images/network-icon/status.jpg); }
+.link{background-image: url(../../images/network-icon/link.jpg) ;}
+.photo{background-image: url(../../images/network-icon/photo.png);}
+.video{background-image: url(../../images/network-icon/video.png);}
+
+.status:hover,
+#status-active { background-image:url(../../images/network-icon/status-active.jpg); }
+.link:hover,
+#link-active{background-image: url(../../images/network-icon/link-active.jpg) ;}
+.photo:hover,
+#photo-active{background-image: url(../../images/network-icon/photo-active.png);}
+.video:hover,
+#video-active{background-image: url(../../images/network-icon/video-active.png);}
+
+.menu-fancy a:link{
+	font-weight:bold;
+	line-height:28px;
+	color:#000000;
+	}
+.menu-fancy a:active,
+.menu-fancy a:hover,
+#status-active,
+#link-active,
+#photo-active,
+#video-active{
+	color:#ff0000;
+	font-weight:bold;
+	}
+
+.menu-fancy a{
+	padding:2px 10px 2px 28px;
+	line-height:25px;
+	background-position:left;
+	background-repeat:no-repeat;
+}
+.menu-fancy.linkb a{
+	padding:2px 10px 2px 10px;
+	}
+.menu-fancy.linkb{
+	margin-left:55px;
+	}	
+
+.input-text-b{
+	margin:0 auto;
+	padding:15px;
+	vertical-align:top;	
+	border:1px solid #ccc;
+	width:500px;
+	height:60px;
+	}
+
+.button-a{
+	margin:0 auto;
+	padding:8px;
+	}
+
+

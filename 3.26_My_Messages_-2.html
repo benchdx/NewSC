@@ -1,0 +1,324 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link href="css/default2.css" rel="stylesheet" type="text/css" media="screen,projection" charset="utf-8" />
+<link href="css/styles.css" rel="stylesheet" type="text/css" media="screen,projection" charset="utf-8" />
+<link href="css/profile-image.css" rel="stylesheet" type="text/css" media="screen,projection" charset="utf-8" />
+<link href="css/topmenu.css" rel="stylesheet" type="text/css" media="screen,projection" charset="utf-8" />
+<link href="css/pb-menu-inner.css" rel="stylesheet" type="text/css" media="screen,projection" charset="utf-8" />
+<link href="css/mainmenu.css" rel="stylesheet" type="text/css" media="screen,projection" charset="utf-8" />
+<link href="css/button.css" rel="stylesheet" type="text/css" media="screen,projection" charset="utf-8" />
+
+<link href="css/jquery.selectbox.css" rel="stylesheet" type="text/css" media="screen,projection" charset="utf-8" />
+
+<link href="css/jquery-bubble-popup-v3.css" rel="stylesheet" type="text/css" media="screen,projection" charset="utf-8"/>
+<link href="css/footer.css" rel="stylesheet" type="text/css" media="screen,projection" charset="utf-8" />
+
+<link rel="stylesheet" type="text/css" href="fancy/source/jquery.fancybox.css?v=2.0.6" media="screen" />
+
+<link rel="stylesheet" type="text/css" href="css/jquery.qtip.css" />
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jQueryRotate.js"></script>
+<script src="scripts/jquery-bubble-popup-v3.min.js" type="text/javascript"></script>
+<link href="css/fancy/fancy-menu.css" rel="stylesheet" type="text/css" media="screen,projection" charset="utf-8" />
+<link href="css/fancy/jquery.selectbox_fancy.css" rel="stylesheet" type="text/css" media="screen,projection" charset="utf-8" />
+<title>Untitled Document</title>
+
+<style type="text/css">
+.fancybox-iframe {width: 550px;}
+
+</style>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$("#image").rotate(-8);
+	});
+</script>
+<script type="text/javascript">
+<!--
+$(document).ready(function(){
+	$('.dt-follow-d-x').CreateBubblePopup({
+		position : 'top',
+		align	 : 'center',
+		innerHtml: 'Unarchieve',
+		innerHtmlStyle: {
+							color:'#FFFFFF', 
+							'text-align':'center'
+						},
+		themeName: 'all-grey',
+		themePath: 'jquerybubblepopup-themes'
+	});
+	
+});
+$(document).ready(function(){
+	$('.dt-follow-b-x').CreateBubblePopup({
+		position : 'top',
+		align	 : 'center',
+		innerHtml: 'Delete',
+		innerHtmlStyle: {
+							color:'#FFFFFF', 
+							'text-align':'center'
+						},
+		themeName: 'all-grey',
+		themePath: 'jquerybubblepopup-themes'
+	});
+	
+});
+//-->
+</script>
+</head>
+
+<body>
+
+<div class="outline">
+	<div class="wrapper">
+		<div class="logo"><a href="#"><img src="images/logo.png" alt="logo" /></a></div>
+		<div class="topMenu-container">
+				<div class="topLeft">
+					<input class="searchBox" type="text" value="Search Player/Teams" onFocus="if(this.value == 'Search Player/Teams') {this.value = '';}" onBlur="if (this.value == '') {this.value = 'Search Player/Teams';}"/><input class="searchbutton" type="submit" value=""/>
+				</div>
+				<div class="topRight">
+					<div class="top-menu"> 
+						<ul>
+							<li><a class="topMenu-link" href="#">#12 William Green</a>
+								<ul>
+									<li><a href="#">My Profile</a></li>
+									<li><a href="#">Edit Settings</a></li>
+									<li><a href="#">Invite People</a></li>
+									<li><a href="#">Find People</a></li>
+									<li><a href="#">Help</a></li>
+									<li><a href="#">Logout</a></li>
+								</ul>
+							</li>
+							<li><a class="topMenu-link-b" href="#">Update</a></li>
+						</ul>
+					</div>
+				</div>
+		</div><!--end class topMenu-container -->
+		<div class="profile-image">
+			<div id="cssmenu">
+				<ul>
+				   <li class="has-sub"><img id="image" src="images/profile-image/image8.png" />
+					  <ul>
+						 <li class="has-sub"><span class="arrow-left">&nbsp;</span><span><a class="changepic" href='#'>Change Pic</a></span>
+								<ul>
+									<li class="has-sub"><a href='#'><span>Upload New Picture</span></a></li>
+									<li class="has-sub"><a href='#'><span>Use current Facebook</span></a></li>
+									<li class="has-sub"><a href='#'><span>Use current Twitter</span></a></li>
+								</ul>
+						</li>
+					  </ul>
+				   </li>
+				</ul>
+			</div>
+		</div><!--end class profile-image -->
+		<div class="banner-container">
+			<div class="banner banner-background"><img src="images/banners/prof-banner/prof-banner2.jpg" /></div>
+			<div class="banner banner-caption">To Know Him is to want to <br />know Him more</div>
+		</div><!--end class banner-container -->
+		
+		<div class="content-container">
+			<!-- Column one start -->
+			<div class="column col1">
+				<div class="header-container"><h1>William Green</h1></div>
+				<div class="column-container">
+					<br />
+					<div class="profile" >My Profile</div>
+					<div class="feedtitle" >My feed</div>
+					<div class="playbooktitle" >My Playbook</div>
+					<div class="savestitle">Saves</div>
+					<div class="connecttitle">Connections<span class="num-connect">(2638)</span></div>
+					<div class="messagestitle" id="messagesMenutitle">Messages</div>
+					<div><br /></div>
+				</div>
+				
+				<div class="header-container"><h2>William's Info</h2></div>
+				<div class="column-container-b">
+					<div class="personal-info-a">
+						<p id="number">#12</p>
+						<p>"I was born in a desert, and cold rock is my pillow too. I was born in a desert, and cold rock is my pillow too."</p>
+						<div id="masterdiv2">
+							<div class="facebook"><a href="#">Facebook</a></div>
+							<div class="tweets"><a href="#">Twitter</a></div>
+						</div><!--end class masterdiv-->
+					</div>
+				</div><!-- column-container-b end -->
+				
+				<div class="header-container"><h2>played on <span>&nbsp;<a class="fancybox fancybox.iframe" href="3.16_Update(Video).html"><img src="images/buttons-bg/add2.jpg"  /></a></span></h2></div>
+				<script type="text/javascript" src="fancy/source/jquery.fancybox.js?v=2.0.6"></script>
+				<script type="text/javascript">
+					$(document).ready(function() {
+						$('.fancybox').fancybox();
+					});
+				</script>
+				<div class="column-container">
+					<div class="col-dd-c">
+						<img src="images/profile-icon/icon2.jpg" /><label>Normal Park MS (TN) Basketball</label> 
+						<div class="dt-follow-c"></div>
+					</div>	
+					<div class="col-dd-c">
+						<img src="images/profile-icon/icon2.jpg" /><label>Normal Park MS (TN) Basketball</label> 
+					</div>
+					<div class="col-dd-c">
+						<img src="images/profile-icon/icon2.jpg" /><label>Normal Park MS (TN) Basketball</label> 
+					</div>
+					<div class="col-dd-c">
+						<img src="images/profile-icon/icon2.jpg" /><label>Normal Park MS (TN) Basketball</label> 
+					</div>
+					<div class="see-all"><a href="">See all</a></div>
+				</div>
+				
+				<div class="header-container"><h2>coached <span>&nbsp;<a class="fancybox fancybox.iframe" href="3.16_Update(Video).html"><img src="images/buttons-bg/add2.jpg"  /></a></span></h2></div>
+				<script type="text/javascript" src="fancy/source/jquery.fancybox.js?v=2.0.6"></script>
+				<script type="text/javascript">
+					$(document).ready(function() {
+						$('.fancybox').fancybox();
+					});
+				</script>
+				<div class="column-container-c">
+					<div class="col-dd-c">
+						<img src="images/profile-icon/icon2.jpg" /><label>Mountain Park Warriors</label> 
+					</div>	
+					<div class="col-dd-c">
+						<img src="images/profile-icon/icon2.jpg" /><label>TYSA Breeze FC</label> 
+					</div>
+				</div>
+				
+			</div>
+			<!-- Column one end -->
+			<div id="colspace">&nbsp;</div>
+			<div class="right-content" >
+				<div class="right-content-b">
+					<div class="header-container hcc" >
+						<div id="container">
+							<div class="left"><span><h3>My Messages</h3></span></div>
+							<div class="left left-b">
+								<span>
+									<a class="fancybox fancybox.iframe" href="3.16_Update(Video).html"><img src="images/buttons-bg/new-button-b.jpg"  /></a>
+								</span>
+							</div>
+							<div class="right">	
+								<span>
+									<div class="thw-dt-d">
+										<div class="playbook-menu"> 
+											<ul>
+												<li><a class="playbookMenu-link-b"  href="#">Messages</a></li>
+												<li><a class="playbookMenu-link-b" href="#">Notifications</a></li>
+												<li><a class="playbookMenu-link-b" id="playbookMenu-link-c" href="#">Archives</a></li>
+											</ul>
+										</div>
+									</div>								
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="right-content-b">		
+					<div class="column col1">
+						<div class="col-dd-d ">
+							<img src="images/profile-icon/icon2.jpg" />
+							<p><label>Chrissy Jordan &nbsp;<span class="posted-b">on September 3rd, 2012</span></label> <br />
+							Lorem Ipsum dolor sit amet Lorem Ipsum dolor sit amet Lorem Ipsum dolor sit amet.. 
+							</p>
+							<div class="dt-follow-de"><a class="dt-follow-d-x" href="#">&nbsp;</a></div>
+							<div class="dt-follow-cd"><a class="dt-follow-b-x" href="#">&nbsp;</a></div>
+						</div>	
+					</div>
+					<div class="column col1">
+						<div class="col-dd-d ">
+							<img src="images/profile-icon/icon2.jpg" />
+							<p><label>Chrissy Jordan &nbsp;<span class="posted-b">on September 3rd, 2012</span></label> <br />
+							Lorem Ipsum dolor sit amet Lorem Ipsum dolor sit amet Lorem Ipsum dolor sit amet.. 
+							</p>
+							<div class="dt-follow-de"><a class="dt-follow-d-x" href="#">&nbsp;</a></div>
+							<div class="dt-follow-cd"><a class="dt-follow-b-x" href="#">&nbsp;</a></div>
+						</div>	
+					</div>
+					<div class="column col1">
+						<div class="col-dd-d ">
+							<img src="images/profile-icon/icon2.jpg" />
+							<p><label>Chrissy Jordan &nbsp;<span class="posted-b">on September 3rd, 2012</span></label> <br />
+							Lorem Ipsum dolor sit amet Lorem Ipsum dolor sit amet Lorem Ipsum dolor sit amet.. 
+							</p>
+							<div class="dt-follow-de"><a class="dt-follow-d-x" href="#">&nbsp;</a></div>
+							<div class="dt-follow-cd"><a class="dt-follow-b-x" href="#">&nbsp;</a></div>
+						</div>	
+					</div>
+					<div class="column col1">
+						<div class="col-dd-d">
+							<img src="images/profile-icon/icon2.jpg" />
+							<p><label>Chrissy Jordan &nbsp;<span class="posted-b">on September 3rd, 2012</span></label> <br />
+							Lorem Ipsum dolor sit amet Lorem Ipsum dolor sit amet Lorem Ipsum dolor sit amet.. 
+							Lorem Ipsum dolor sit amet Lorem Ipsum dolor sit amet Lorem Ipsum dolor sit amet..
+							Lorem Ipsum dolor sit amet Lorem Ipsum dolor sit amet Lorem Ipsum dolor sit amet..
+							Lorem Ipsum dolor sit amet Lorem Ipsum dolor sit amet Lorem Ipsum dolor sit amet..
+							Lorem Ipsum dolor sit amet Lorem Ipsum dolor sit amet Lorem Ipsum dolor sit amet..
+							Lorem Ipsum dolor sit amet Lorem Ipsum dolor sit amet Lorem Ipsum dolor sit amet..
+							</p>
+							
+							<p class="plink">
+							<input class="search-school searchb" type="text" value="Reply" onFocus="if(this.value == 'Reply') {this.value = '';}" onBlur="if (this.value == '') {this.value = 'Reply';}"/>
+							</p>
+							<div class="menu-fancy linkb">
+								<a class="video" href="#">&nbsp;</a>
+								<a class="photo" href="3.15_Update(Photo).html">&nbsp;</a>
+							</div>
+							<br />
+							<div class="dt-follow-de"><a class="dt-follow-d-x" href="#">&nbsp;</a></div>
+							<div class="dt-follow-cd"><a class="dt-follow-b-x" href="#">&nbsp;</a></div>
+						</div>	
+					</div>
+					<div class="column col1">
+						<div class="col-dd-d ">
+							<img src="images/profile-icon/icon2.jpg" />
+							<p><label>Chrissy Jordan &nbsp;<span class="posted-b">on September 3rd, 2012</span></label> <br />
+							Lorem Ipsum dolor sit amet Lorem Ipsum dolor sit amet Lorem Ipsum dolor sit amet.. 
+							</p>
+							<div class="dt-follow-de"><a class="dt-follow-d-x" href="#">&nbsp;</a></div>
+							<div class="dt-follow-cd"><a class="dt-follow-b-x" href="#">&nbsp;</a></div>
+						</div>	
+					</div>
+					<div class="column col1">
+						<div class="col-dd-d ">
+							<img src="images/profile-icon/icon2.jpg" />
+							<p><label>Chrissy Jordan &nbsp;<span class="posted-b">on September 3rd, 2012</span></label> <br />
+							Lorem Ipsum dolor sit amet Lorem Ipsum dolor sit amet Lorem Ipsum dolor sit amet.. 
+							</p>
+							<div class="dt-follow-de"><a class="dt-follow-d-x" href="#">&nbsp;</a></div>
+							<div class="dt-follow-cd"><a class="dt-follow-b-x" href="#">&nbsp;</a></div>
+						</div>	
+					</div>
+				</div>	
+			</div>		
+			
+				
+			
+			
+			
+		</div><!--end class content-container -->
+		
+		
+	</div><!--end class wrapper -->
+</div><!--end class outline -->
+<div style="clear:both;"></div>
+<div class="footerWrapper">
+	<div class="footer">
+		<br />
+		<p><a href="#"><img src="images/logo-footer.png" /></a></p>
+		<p>2012 SportsCrunch<sup>TM</sup></p>
+		<p>
+			<a href="">About</a>&nbsp;&nbsp;&bull;
+			<a href="">Advertising</a>&nbsp;&nbsp;&bull;
+			<a href="">Create a Page</a>&nbsp;&nbsp;&bull;
+			<a href="">Developers</a>&nbsp;&nbsp;&bull;
+			<a href="">Careers</a>&nbsp;&nbsp;&bull;
+			<a href="">Privacy</a>&nbsp;&nbsp;&bull;
+			<a href="">Terms</a>&nbsp;&nbsp;&bull;
+			<a href="">Help</a>
+		</p>
+	</div>
+</div>
+<div class="footer-edge">&nbsp;</div>
+</body>
+</html>

@@ -1,0 +1,319 @@
+.topLeft{
+	margin:0 auto;
+	padding:6px 0px;
+	float:left;
+	height:25px;
+	overflow:hidden;
+	border:0px dotted #fff;
+	}
+.topRight{
+	padding:0px;
+	float:right;
+	width:600px;
+	border:0px dotted yellow;
+	}
+
+
+
+
+.playbook-wrapper{
+	margin:0 auto;
+	padding:0px;
+	width:100%;
+	height:65px;
+	line-height:90px;
+	border:px dotted red;
+	}
+
+.playbook-header{
+	margin:0 auto;
+	padding:0px;
+	width:270px;
+	height:65px;
+	line-height:90px;
+	text-align:left;
+	float:left;
+	border-right:0px dashed green;
+	}
+
+.top-playbook-menu{
+	margin:0 auto;
+	padding-top:25px;
+	width:560px;
+	float:right;
+	/*height:65px;
+	line-height:90px;*/
+	border:0px dotted yellow;
+	}
+
+
+
+
+
+
+
+
+.playbook-menu,
+.top-menu {
+	float:right; 
+	padding:0; 
+	margin:0 auto; 
+	color: #808080; 
+	clear:both; 
+	border:solid 0px green;
+	z-index:10;
+	position:relative;
+	} 
+
+
+
+.top-menu a.topMenu-link-c{
+	margin:0 auto;
+	}
+	
+	
+.playbook-menu a.playbookMenu-link,
+.playbook-menu a.playbookMenu-link-b{
+	background-position:right; 
+	background-repeat: no-repeat;color:#e52425; 
+	font-size:14px;text-align:center;
+	}
+	
+.top-menu a.topMenu-link-b,	
+.top-menu a.topMenu-link
+	{
+	background-position:right; 
+	background-repeat: no-repeat; 
+	font-size:18px;text-align:center;
+	border-right:solid 1px #333333; 
+	}	
+
+.playbook-menu a.playbookMenu-link-b,
+.top-menu a.topMenu-link-b{ 
+	background:none; 
+	padding:5px 10px; 
+	} 
+
+
+
+
+.playbook-menu a.playbookMenu-link{
+	background-image: url(../images/buttons-bg/droparrow.png); 
+	padding: 5px 25px 5px 20px;
+	width:auto;
+	background-repeat:no-repeat;
+	}
+
+
+.top-menu a.topMenu-link{ 
+	background-image: url(../images/buttons-bg/droparrow.png); 
+	padding: 5px 20px 5px 0px;
+	width:183px;
+	background-repeat:no-repeat;
+	}
+	
+/*.top-menu a:visited.topMenu-link,	
+.top-menu a:active.topMenu-link,	
+.top-menu a:focus.topMenu-link,	
+*/
+
+
+.playbook-menu a:hover.playbookMenu-link, 
+.top-menu a:hover.topMenu-link {
+	/*padding: 10px 25px 10px 25px;*/
+	background-image: url(../images/buttons-bg/droparrow.png);
+	background-repeat: no-repeat;
+	background-position: right center;
+	}
+
+
+
+
+.top-menu a:hover.topMenu-link-b{
+	background:none;
+	color:#e52425;
+	}	
+	
+/*Color navigation bar normal mode*/
+
+.playbook-menu a, .playbook-menu a:visited{
+	color:#e52425;
+	}
+.top-menu  a, .top-menu a:visited {
+	color:#808080;
+	}
+
+.playbook-menu a, .playbook-menu a:visited,
+.top-menu  a, .top-menu a:visited {
+	font-family:Arial, Helvetica, sans-serif;
+	font-style:normal;
+	font-weight:bold;
+	font-size:11px;
+	letter-spacing:-1.0px;
+	text-decoration: none;
+	}
+	
+.playbook-menu ul,	
+.top-menu ul {
+	list-style-type:none;
+	padding:0; 
+	margin:0;
+	color:#e52425;
+	}
+
+.playbook-menu ul li,
+.top-menu ul li {
+	float:left; 
+	position:relative; 
+	z-index:auto !important ; 
+	z-index:1000 ; color:#e52425;
+	padding-right:1px;
+	border-right:solid 0px #333333; 
+	border-left:solid 0px #004080;
+	}
+
+.playbook-menu ul li:hover a,
+.playbook-menu ul li a{
+	color:#e52425;
+	}
+	
+.top-menu ul li:hover a,	
+.top-menu ul li a{
+	color: #808080;
+	}
+
+.playbook-menu ul li a,
+.top-menu ul li a {
+	
+	/*background: #ededed;*/
+	float:none !important ; 
+	float:left ; 
+	display:block; 
+	height:30px; 
+	line-height:30px; 
+	padding:10px 10px 0px 20px; 
+	text-decoration:none;
+	}
+
+
+.playbook-menu ul li ul{
+	width:160px;
+	text-indent:5px;
+	}	
+.top-menu ul li ul {
+	width:203px;
+	text-indent:20px;
+	}
+	
+
+
+.playbook-menu ul li ul,	
+.top-menu ul li ul {
+	display:none; 
+	border:none;
+	color: #808080;
+	background: #ededed;
+	overflow:hidden;
+	border:0px solid yellow;
+	padding-top:15px;
+	padding-bottom:15px;
+	padding-left:0px;
+	}
+	
+/*Color main cells hovering mode*/	
+
+
+.playbook-menu ul li:hover a,
+.top-menu ul li:hover a {
+	/**/background-color: #ededed;
+	background-image: url(../images/buttons-bg/droparrow.png);
+	background-repeat: no-repeat;
+	background-position: right center;
+	text-decoration:none; 
+	
+	} 
+
+.playbook-menu ul li:hover ul,
+.top-menu ul li:hover ul {
+	display:block;  
+	position:absolute; 
+	z-index:999; 
+	top:29px; 
+	margin-top:1px; 
+	left:0; 
+	} 
+	
+/*submenu hover*/	
+
+.playbook-menu ul li:hover ul li a, 
+.top-menu ul li:hover ul li a { 
+	display:block; 
+	width:183px; 
+	height:auto; 
+	line-height:1.3em; 
+	margin-left:-1px; 
+	padding:5px 10px 5px 10px; 
+	/*background-color:#ededed;*/
+	background-image:none;  
+	color:#808080;
+	} 
+	
+/*Color subcells normal mode*/
+.playbook-menu ul li:hover ul li a:hover, 
+.top-menu ul li:hover ul li a:hover{
+	background-color:#e52425; 
+	text-decoration:none;
+	color:#FFFFFF; 
+	} 
+/*Color subcells hovering mode*/
+.playbook-menu ul li a:hover, 
+.top-menu ul li a:hover {
+	background-color:#ededed;  
+	text-decoration:none;
+	color:#808080;} 
+	
+/*Color main cells hovering mode*/
+.playbook-menu ul li a:hover ul, 
+.top-menu ul li a:hover ul {
+	display:block; 
+	width:12em; 
+	position:absolute; 
+	z-index:999; 
+	top:29px; 
+	left:0; 
+	}
+.playbook-menu ul li ul li a:visited,  
+.top-menu ul li ul li a:visited { 
+	background-color:#ededed;  
+	color:#808080; 
+	} 
+	
+/*Color subcells normal mode*/
+.playbook-menu ul li a:hover ul li a, 
+.top-menu ul li a:hover ul li a {
+	display:block; 
+	width:12em; 
+	height:1px; 
+	line-height:1.3em; 
+	padding:4px 16px 4px 16px; 
+	border-left:solid 1px #004080; 
+	border-bottom: solid 1px #004080; 
+	background-color:#ededed;  
+	color:#808080; 
+	} 
+
+.playbook-menu ul li a:hover ul li a:hover,	 
+.top-menu ul li a:hover ul li a:hover { 
+	background-color:#FF0000; 
+	text-decoration:none;  
+	color:#FFFFFF; 
+	} 
+	
+/*Color subcells hovering mode*/
+
+
+
+
+
+
+

@@ -1,0 +1,120 @@
+@CHARSET "UTF-8";
+.sbHolder{
+	font-family: Arial, sans-serif;
+	font-size: 24px;
+	font-weight: normal;
+	height: 30px;
+	padding:0;margin:0;
+	position: relative;
+	z-index:4000;
+}
+.sbHolder:focus .sbSelector{
+	padding:10px 20px;margin:0;
+	
+}
+.sbSelector{
+	display: block;
+	left: 0;
+	line-height: 30px;
+	height: 30px;
+	outline: none;
+	overflow: hidden;
+	position: absolute;
+	text-indent: 10px;
+	top: 0;
+	width: 100%;
+	padding:0;margin:0;
+	
+}
+.sbSelector:link, .sbSelector:visited, .sbSelector:hover{
+	color: red;
+	outline: none;
+	text-decoration: none;
+	padding:0;margin:0;
+}
+.sbToggle{
+	background-position:center;
+	background: url(../images/buttons-bg/arrow-down_2.png) no-repeat;
+	display: block;
+	outline: none;
+	position: absolute;
+	right: -5px;
+	top: 10px;height:30px;
+	width: 10px;
+}
+
+/*
+.sbToggle:hover{
+	background: url(../images/buttons-bg/arrow-down_2.png) 0 -167px no-repeat;
+}
+.sbToggleOpen{
+	background: url(../images/buttons-bg/arrow-down_2.png) 0 -167px no-repeat;
+}
+.sbToggleOpen:hover{
+	background: url(../images/buttons-bg/arrow-down_2.png) 0 -167px no-repeat;
+}
+*/
+.sbHolderDisabled{
+	padding:0;margin:0;
+}
+.sbHolderDisabled .sbHolder{
+	padding:0;margin:0;
+}
+.sbHolderDisabled .sbToggle{
+	padding:0;margin:0;
+}
+.sbOptions{
+	background-color: #ededed;
+	list-style: none;
+	left: -1px;
+	margin: 0;
+	padding:0;margin:0;
+	position: absolute;
+	top: 30px;
+	width: 100px;
+	z-index: 1;
+	/*overflow-y: auto;*/
+}
+.sbOptions li{
+	width:100px;
+	padding:0px 0px;margin:0;
+}
+.sbOptions a{
+	display: block;
+	outline: none;
+	text-align:center;
+	padding:0;margin:0;
+}
+.sbOptions a:link, .sbOptions a:visited{
+	color: #808080;
+	font-weight:bold;
+	text-decoration: none;
+	font-size:14px;height:25px;line-height:25px;
+}
+.sbOptions a:hover,
+.sbOptions a:focus,
+.sbOptions a.sbFocus{
+	color: #ffffff;
+	background:#e52425;
+	padding:0;margin:0;
+	height:25px;
+	line-height:25px;
+}
+.sbOptions li.last a{
+	border-bottom: none;
+	padding:0;margin:0;
+}
+.sbOptions .sbDisabled{
+	color: #999;
+	display: block;
+	padding:0;margin:0;
+}
+.sbOptions .sbGroup{
+	color: #EBB52D;
+	display: block;
+	font-weight: bold;
+	padding:0;margin:0;
+}
+.sbOptions .sbSub{
+	padding:0;margin:0;
+}

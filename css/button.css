@@ -1,0 +1,56 @@
+.buttons{
+	width:271px;
+	height:54px;
+	line-height:54px;
+	margin:0 auto;
+	padding:6px 0px;
+	border:0px dotted green;
+	}
+.buttons button{
+	cursor:pointer;
+	padding:0;
+	margin:2px;
+	min-width:120px;
+	}	
+.positive{
+	margin:0 auto;
+	height:50px;
+	line-height:40px;
+	padding:0px;
+	border:1px solid #ccc;
+	min-width:120px;
+	background:	url(../images/buttons-bg/link-bg-a.png) repeat-x;
+	background-position:center;
+	border:1px solid #ccc;
+	position:relative;
+	font-weight:bold;
+	color:#747474;
+	text-transform:uppercase;
+	}	
+.positive img{
+	margin-right:5px;
+	margin-bottom:-1px;
+	
+	}	
+	
+.positive.follow:hover span{
+		background:	url(../images/buttons-bg/minus.png) no-repeat;
+		background-position:center;
+		height:11px;
+		padding:0px 10px;
+		width:11px;
+		line-height:11px;
+		}	
+.positive.follow span{
+	background:	url(../images/buttons-bg/plus.png) no-repeat;
+	background-position:center;
+	height:11px;
+	padding:0px 10px;
+	width:11px;
+	line-height:11px;
+	}	
+	
+	
+.positive.following{min-width:180px;}
+.positive:hover{background:	url(../images/buttons-bg/link-bg-hover.png) repeat-x;
+	background-position:center;}

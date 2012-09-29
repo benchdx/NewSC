@@ -1,0 +1,161 @@
+#masterdiv2 a,
+.mainmenu-container a{
+	text-decoration:none;
+	color:#000;
+	}	
+	
+#masterdiv2 a:hover,	
+.mainmenu-container a:hover{
+	text-decoration:none;
+	color:#ff0000;
+	}	
+	
+/*Active Menu title*/
+.mainmenu-container{
+	margin:0 auto;
+	padding:10px 5px;
+	}
+.mainmenu-container p{
+	text-indent:20px;
+	margin:0 auto;
+	padding:2px;
+	}
+	
+/********************************/	
+/*Menu title hover*/
+#profileMenutitle,
+.profile:hover{
+	background:	url(../images/network-icon/home-active.png) no-repeat;
+	color:#ff0000;
+	}	
+	
+#playbookMenutitle,		
+.playbooktitle:hover{
+	background:	url(../images/network-icon/playbook-active.png) no-repeat;
+	color:#ff0000;
+	}
+	
+.savestitle:hover{
+	background:	url(../images/network-icon/saves-active.png) no-repeat;
+	color:#ff0000;
+	}
+#feedMenutitle,	
+.feedtitle:hover{
+	background:	url(../images/network-icon/feed-active.png) no-repeat;
+	color:#ff0000;
+	}
+#connectMenutitle,		
+.connecttitle:hover{
+	background:	url(../images/network-icon/connect-active.png) no-repeat;
+	color:#ff0000;
+	}
+#messagesMenutitle,	
+.messagestitle:hover{
+	background:	url(../images/network-icon/messages-active.png) no-repeat;
+	color:#ff0000;
+	}
+	
+.tweets:hover,	
+.tweetstitle:hover{
+	background:	url(../images/network-icon/tweet-active.png) no-repeat;
+	color:#ff0000;
+	}
+
+.facebook:hover{
+	background:	url(../images/network-icon/facebook-active.png) no-repeat;
+	color:#ff0000;
+	}
+
+
+/*
+.tweets a:hover,
+.wiki a:hover,
+.website a:hover,
+.facebook a:hover,
+.playercoachestitle:hover,	
+.tweetstitle:hover,	
+.connecttitle:hover,	
+.savestitle:hover,	
+.playbooktitle:hover,
+.profile:hover{
+	line-height:28px;
+	color:#ff0000;
+	}	
+*/	
+/*end Menu title hover*/	
+	
+/********************************/	
+.messagestitle{
+	background:	url(../images/network-icon/messages.png) no-repeat;
+	}
+.profile{
+	background:	url(../images/network-icon/home.png) no-repeat;
+	}
+.tweetstitle{
+	background:	url(../images/network-icon/tweet.png) no-repeat;
+	}
+.connecttitle{
+	background:	url(../images/network-icon/connect.png) no-repeat;
+	}
+.savestitle{
+	background:	url(../images/network-icon/saves.png) no-repeat;
+	}
+.playbooktitle{
+	background:	url(../images/network-icon/playbook.png) no-repeat;
+	}
+.playercoachestitle{
+	background:	url(../images/network-icon/connect.jpg) no-repeat;
+	}
+.wiki{
+	background:	url(../images/network-icon/wiki.jpg) no-repeat;
+	}
+.website{
+	background:	url(../images/network-icon/website.jpg) no-repeat;
+	}
+.facebook{
+	background:	url(../images/network-icon/facebook.png) no-repeat;
+	}
+.tweets{
+	background:	url(../images/network-icon/tweet.png) no-repeat;
+	}
+.feedtitle{
+	background:	url(../images/network-icon/feed.png) no-repeat;
+	}
+.tweets,
+.wiki,
+.website,
+.facebook{
+	font:100% 'Maiandra GD', Helvetica, sans-serif;
+	font-size:12px;
+	cursor:pointer;
+	margin-left:5px;
+	line-height:28px;
+	text-indent:34px;
+	color:#000000;
+	font-weight:bold;
+	padding:0px;
+	}
+
+.messagestitle,	
+.feedtitle,	
+.playercoachestitle,	
+.connecttitle,
+.tweetstitle,
+.savestitle,
+.profile,	
+.playbooktitle{
+	font:100% 'Maiandra GD', Helvetica, sans-serif;
+	font-size:12px;
+	cursor:pointer;
+	margin-left:20px;
+	line-height:28px;
+	text-indent:34px;
+	color:#000000;
+	font-weight:bold;
+	padding:0px;
+}
+
+
+	
+	
+	

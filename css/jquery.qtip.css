@@ -1,0 +1,19 @@
+/* CSS Document */
+
+.ui-tooltip,.qtip{
+	position:absolute;
+	margin-top:-84px;
+	margin-left:-73px;
+	display:none; 
+	min-width:85px;
+	font-size:15px;
+	line-height:12px;
+	height:auto;
+	padding:5px 10px 20px 10px;
+	background: url(../images/buttons-bg/down-arrow2.png) no-repeat;
+	background-position:left;
+	z-index:100000;
+	font-weight:bold;
+	color:#ffffff;
+	}
+	

@@ -1,0 +1,104 @@
+/* CSS Document */
+
+body{
+	background:#f4f4f4 url(../images/bg-top.jpg) repeat-x;
+	color:#000000;
+	}
+h1,h2{
+	color:#000000;
+	padding:5px 0px;
+	margin:0;
+	}
+a{color:inherit;}
+h1{
+	font-size:35px;
+	letter-spacing:-1.3px;
+	line-height:35px;
+	}	
+h2{
+	text-transform:uppercase;
+	}	
+.see-all a{
+	color:#000000;
+	font-size:12px;
+	margin:0 auto;
+	padding-right:0px;
+	text-decoration:none;
+	}	
+.h2-span{
+	font-size:13px;
+	font-weight:bold;
+	padding:0px 10px;
+	}
+.h2-span a{
+	color:#e52425;
+	}	
+	
+h4{
+	margin:0 auto;
+	padding:0px;
+	font-weight:bold;
+	font-size:35px;
+	letter-spacing:-1.0px;
+	}
+	
+.td-wrapper	
+	{
+	border-bottom:1px solid #f4f4f4;
+	}
+	
+.header-container-b
+	{
+	padding:0px;
+	margin:0 auto;
+	height:68px;
+	text-align:left;
+	vertical-align:bottom;
+	}
+.header-container-c{
+	/*padding:0px 0px 0px 9px;*/
+	padding:0px;
+	margin:0 auto;
+	height:60px;
+	text-align:left;
+	vertical-align:bottom;
+	}
+.header-container-d{
+	height:89px;
+	text-align:left;
+	margin:0 auto;
+	padding:0px 0px 3px 0px;
+	vertical-align:bottom;
+	}
+	
+.header-container{
+	height:88px;
+	text-align:left;
+	margin:0 auto;
+	padding:0px 0px 3px 0px;
+	vertical-align:bottom;
+	}
+	
+.header-container-e{
+	height:86px;
+	text-align:left;
+	margin:0 auto;
+	/*padding:0px 0px 3px 9px;*/
+	padding:0px 0px 3px 0px;
+	vertical-align:bottom;
+	}
+	
+	
+.footer-b,	
+.footer,
+.footerWrapper{
+	background:	url(../images/footerbg2.jpg) repeat-x;
+	}
+
+#playbookMenu-link-c{
+	color:#000000;
+	}
+.playbook-menu a:hover.playbookMenu-link-b{
+	background:none;
+	color:#000000;
+	}
