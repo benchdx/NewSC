@@ -585,7 +585,7 @@ a.sign-up-link{
 	}
 	
 .link-button:hover{
-	background:	url(../images/buttons-bg/link-bg-hover.png) repeat-x;
+	background: #e6e6e6	url(../images/buttons-bg/link-bg-hover.png) repeat-x;
 	background-position:center;
 	position:relative;
 	}
