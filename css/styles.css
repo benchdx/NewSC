@@ -928,6 +928,7 @@ input{
 	position:relative;
 	}
 	
+.col-dd-d .dt-follow-ef,		
 .col-dd-d .dt-follow-de,	
 .col-dd-d .dt-follow-bc,
 .col-dd-d .dt-follow-cd{
@@ -1009,18 +1010,8 @@ input{
 	letter-spacing:-0.20px;
 	}
 
-/*
-.dt-follow-d a:hover{
-	background:	url(../images/buttons-bg/unfollow.png) no-repeat;
-	text-align:center;
-	margin-top:-23px;
-	margin-right:-23px;
-	position:absolute;
-	text-indent:0;
-	border:0px dotted green;
-	padding:0px 35px 0px 35px;
-	}
-*/
+
+
 .dt-follow-a a:hover,
 .dt-follow-d a:hover{
 	background:	url(../images/buttons-bg/unfollow.png) no-repeat;
@@ -1029,16 +1020,30 @@ input{
 	padding:0px;height:23px;width:23px;
 	}	
 
+.dt-follow-ef a, .dt-follow-ef a:hover,
+.dt-follow-cd a, .dt-follow-cd a:hover	
+	{
+	right:10px;
+	height:23px;
+	width:23px;
+	}
+
 .dt-follow-cd a{
 	background:	url(../images/buttons-bg/xbuttonb.png) no-repeat;
-	right:10px;
-	height:23px;width:23px;
 	}	
 .dt-follow-cd a:hover{
 	background:	url(../images/buttons-bg/xbutton.png) no-repeat;
-	right:10px;
-	height:23px;width:23px;
+	}
+		
+.dt-follow-ef a{
+	background:	url(../images/buttons-bg/check7.png) no-repeat;
 	}	
+.dt-follow-ef a:hover{
+	background:	url(../images/buttons-bg/xbuttonb.png) no-repeat;
+	}	
+	
+	
+	
 .dt-follow-bc a{
 	background:	url(../images/buttons-bg/check5.png) no-repeat;
 	right:35px;
@@ -1092,6 +1097,8 @@ input{
 	right:10px;
 	/*right:5px;*/
 	}
+	
+.dt-follow-ef a,	
 .dt-follow-de a,
 .dt-follow-bc a,
 .dt-follow-cd a,	
