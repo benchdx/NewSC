@@ -56,7 +56,34 @@ table.content-wrapper{
 	height:100%;
 	}
 .right-content-b .column{width:650px;}	
+
+.right-content-c{
+	width:559px;float:left;
+	}
 	
+.right-content-c .column{
+	width:426px;
+	}	
+	
+.right-content-c .column .col-dd-d p{
+	width:307px;
+	}	
+	
+.lightbox-form{
+	position:absolute;
+	border:1px solid red;
+	height:100%;
+	width:100px;
+	top:860px;
+	left:445px;
+	padding:0;
+	}	
+.lightbox-image{
+	margin:0 auto;
+	padding:0px;
+	width:559px;
+	height:744px;
+	}	
 .right-content{
 	width:853px;
 	float:right;
