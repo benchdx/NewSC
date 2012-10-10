@@ -6,12 +6,25 @@
 	padding:6px 0px;
 	border:0px dotted green;
 	}
+	
+.buttons-b{
+	margin-bottom:5px;
+	}	
 .buttons button{
 	cursor:pointer;
 	padding:0;
 	margin:2px;
-	min-width:120px;
+	
+	
 	}	
+.buttons-b button{
+	cursor:pointer;
+	padding:0px 0px 0px 5px;
+	margin:2px;
+	margin-bottom:5px;
+	min-width:95px;
+	}	
+	
 .positive{
 	margin:0 auto;
 	height:50px;
@@ -21,16 +34,61 @@
 	min-width:120px;
 	background:	url(../images/buttons-bg/link-bg-a.png) repeat-x;
 	background-position:center;
-	border:1px solid #ccc;
 	position:relative;
 	font-weight:bold;
 	color:#747474;
 	text-transform:uppercase;
 	}	
+.positive-b{
+	margin:0 auto;
+	height:25px;
+	padding:0px;
+	border:1px solid #ccc;
+	min-width:75px;
+	background:	url(../images/buttons-bg/link-bg-b.png) repeat-x;
+	background-position:center;
+	position:relative;
+	color:#747474;
+	text-align:left;
+	}	
+.positive-c{
+	margin:0;
+	height:25px;
+	padding:0px;
+	border:0px solid #ccc;
+	min-width:56px;
+	font-weight:bold;
+	background:	url(../images/buttons-bg/tweet-bg.png) no-repeat;
+	background-position:center;
+	font-size:10px;
+	color:#747474;
+	text-align:left;
+	}
+.facebook-like{
+	margin:0;
+	height:25px;
+	padding:0px;
+	border:0px solid #ccc;
+	min-width:56px;
+	font-weight:bold;
+	background:	url(../images/buttons-bg/facebook-like.png) no-repeat;
+	background-position:center;
+	font-size:10px;
+	color:#747474;
+	text-align:left;
+	}
+	
+.positive-c button{margin:0;padding:0;width:56px;}	
+.positive-c img{
+	margin-right:1px;
+	margin-left:2px;
+	margin-bottom:-1px;
+	}
+	
+.positive-b img,	
 .positive img{
 	margin-right:5px;
 	margin-bottom:-1px;
-	
 	}	
 	
 .positive.follow:hover span{
@@ -52,5 +110,81 @@
 	
 	
 .positive.following{min-width:180px;}
+
+.positive-b:hover,
 .positive:hover{background:	url(../images/buttons-bg/link-bg-hover.png) repeat-x;
 	background-position:center;}
+	
+.facebook-num,	
+.tweet-num{
+	padding-left:2px;
+	margin:0 auto;
+	margin-left:63px;
+	margin-top:-22px;
+	text-align:center;
+	background:	url(../images/buttons-bg/tweet-num.png) no-repeat;
+	position:relative;
+	width:21px;
+	height:20px;
+	line-height:20px;
+	}	
+.tweet-num p{margin:0;padding:0;font-size:10px;}	
+
+.networks{
+	margin:0px 0px 5px 0px;
+	padding:0;
+	}
+.networks button{cursor:pointer;}	
+	
+.button-a{
+	background:	url(../images/buttons-bg/button-bg.jpg) repeat-x;
+	background-position:center;
+	margin:0 auto;
+	padding:8px;
+	border:1px solid #ccc;
+	}
+
+
+.button-z{
+	height:50px;
+	width:100px;
+	font-weight:bold;
+	background:	url(../images/buttons-bg/link-bg-b.jpg) repeat-x;
+	background-position:center;
+	border:1px solid #ccc;
+	cursor:pointer;
+	}
+
+	
+	
+.fbutton input{border:none;}	
+.fbutton{
+	background:	url(../images/buttons-bg/button-bg.jpg) repeat-x;
+	background-position:center;
+	border:1px solid #cccccc;
+	cursor:pointer;
+	margin:0 auto;
+	text-align:center;
+	height:50px;
+	line-height:50px;
+	position:relative;
+	font-weight:bold;
+	color:#666666;
+	padding:0px;
+	width:120px;
+	font-size:17px;
+	letter-spacing:-1.0px;
+	}
+.fbutton:hover{
+	background:	url(../images/buttons-bg/link-bg-hover.png) repeat-x;
+	}
+.fbutton.xbutton{
+	width:272px;
+	height:50px;
+	padding-left:28px;
+	}
+.fbutton.xbutton img{
+	position:absolute;
+	top:10px;left:0;
+	padding-left:10px;
+	}
