@@ -40,7 +40,22 @@
 	}
 .menu-fancy.linkb{
 	margin-left:55px;
+	border:0px solid red;
+	width:309px;text-align:right;
+	}
+
+.menu-fancy.linkc a{
+	padding:2px 10px 2px 10px;
+	margin:0;
+	}
+.menu-fancy.linkc{
+	padding:0;
+	margin-top:3px;
+	width:427px;
+	text-align:right;
+	border:0px solid red;
 	}	
+	
 
 .input-text-b{
 	margin:0 auto;
@@ -49,11 +64,6 @@
 	border:1px solid #ccc;
 	width:500px;
 	height:60px;
-	}
-
-.button-a{
-	margin:0 auto;
-	padding:8px;
 	}
 
 
