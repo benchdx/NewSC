@@ -1,0 +1,125 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<link href="css/styles.css" rel="stylesheet" type="text/css" media="screen,projection" charset="utf-8" />
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	<link href="css/jquery.selectbox_fancy.css" rel="stylesheet" type="text/css" media="screen,projection" charset="utf-8" />
+	<link href="css/fancy/fancy-menu.css" rel="stylesheet" type="text/css" media="screen,projection" charset="utf-8" />
+	<link href="css/default2.css" rel="stylesheet" type="text/css" media="screen,projection" charset="utf-8" />
+	<link href="css/button.css" rel="stylesheet" type="text/css" media="screen,projection" charset="utf-8" />
+
+	<title>Update - Video</title>
+</head>
+
+<style type="text/css">
+body{background:none;}
+</style>
+
+<body>
+
+<div class="fancy-wrapper">
+	<h2>ADD TO SPORTSCRUNCH</h2>
+	<br />
+	<div class="menu-fancy">
+		<a class="status" href="3.13_Update_2.html">Status</a>
+		<a class="link" href="3.14_Update_.html">Link</a>
+		<a class="photo" href="3.15_Update_.html">Photo</a>
+		<a class="video" id="video-active" href="3.16_Update.html">Video</a>
+	</div>
+	<div style="clear:both;">&nbsp;</div>
+	<br />
+	<p class="paragraph"><a class="link-button choose" />Choose</a> Or, <b>give us a link </b></p>
+	<font size="-2">Video fine print. Max size X MB, max length X minutes.</font>
+	<textarea class="text-area" rows="1" onFocus="if(this.value == 'Type your Message here (optional)') {this.value = '';}" onBlur="if (this.value == '') {this.value = 'Type your Message here (optional)';}">Type your Message here (optional)</textarea>
+</div>
+<div class="fancy-wrapper">
+	<div class="float-left-b" >
+		<p class="paragraph">Original Date:</p>
+		<div class="float-left-b">
+			<select name="month" id="month" tabindex="1" >
+				<option >Month</option>
+				<option >January</option>
+				<option>February</option>
+				<option>March</option>
+				<option>April</option>
+				<option>May</option>
+				<option>June</option>
+				<option>July</option>
+				<option>August</option>
+				<option>September</option>
+				<option>October</option>
+				<option>November</option>
+				<option>December</option>
+				<option></option>
+			</select>
+			<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+			<script type="text/javascript" src="js/jquery.selectbox-0.2.js"></script>
+			<script type="text/javascript">
+			$(function () {
+				$("#month").selectbox();
+			});
+			</script>
+		</div>
+		<div class="float-left-b">&nbsp; &nbsp;</div>
+		<div class="float-left-b">
+			<select name="year" id="year" tabindex="2" >
+					<option >Year</option>
+					<option>2012</option>
+					<option>2011</option>
+					<option>2010</option>
+					<option>2009</option>
+					<option>2008</option>
+					<option>2007</option>
+					<option>2006</option>
+					<option>2005</option>
+					<option>2004</option>
+					<option>2003</option>
+			</select>
+			<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+			<script type="text/javascript" src="js/jquery.selectbox-0.2.js"></script>
+			<script type="text/javascript">
+			$(function () {
+				$("#year").selectbox();
+			});
+			</script>
+		</div>
+		<div class="float-left-b">
+			<input type="checkbox" />&nbsp; <label>Add to facebook</label><br />
+			<input type="checkbox" />&nbsp; <label>Tweet</label>
+		</div>
+	</div>
+	<div class="float-right fr" >
+		<input value="UPDATE" type="button" class="fbutton" />
+	</div>
+</div>	
+<div style="clear:both;"><br /></div>	
+<div class="fancy-wrapper">
+	<div class="float-left-b" >
+		<p class="paragraph">Add to: <b>My Playbooks</b></p>
+		<div class="float-left-b">
+			<select name="year" id="choose" tabindex="3">
+				<option>Choose</option>
+				<option>choose</option>
+				<option>choose</option>
+				<option>choose</option>
+				<option>choose</option>
+			</select>
+			<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+			<script type="text/javascript" src="js/jquery.selectbox-0.2.js"></script>
+			<script type="text/javascript">
+			$(function () {
+				$("#choose").selectbox() ;
+			});
+			</script>
+		</div>
+	</div>	
+</div>	
+<div style="clear:both;"><br /></div>
+<div class="fancy-wrapper">
+	<p class="paragraph">Add to: <b>Other Playbooks</b></p>
+	<input class="input-text" type="text" value="Find other Playbooks you follow" onFocus="if(this.value == 'Find other Playbooks you follow') {this.value = '';}" onBlur="if (this.value == '') {this.value = 'Find other Playbooks you follow';}" />
+</div>
+<br /><br />
+
+</body>
+</html>
