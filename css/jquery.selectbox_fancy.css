@@ -1,4 +1,5 @@
 @CHARSET "UTF-8";
+.sbSelector #choose {width:200px;}
 .sbHolder{
 	/*background-color: pink;*/
 	border: solid 0px #515151;
@@ -8,27 +9,26 @@
 	height: 30px;
 	position: relative;
 	/**/width: 90px;
-	z-index:1000px;
+	
 }
 .sbHolder:focus .sbSelector{
-	
+	padding:10px 20px;margin:0;
 }
 .sbSelector{
 	display: block;
-	height: 38px;
+	height: 36px;
 	left: 0;
-	line-height: 38px;
+	line-height: 36px;
 	outline: none;
 	position: absolute;
-	text-indent: 5px;
 	top: 0;
 	/*width: 90px;*/
-	background-image: url(../images/buttons-bg/arrow-down-b.png);
-	background-color:#e7e7e7;
+	background-image: url(../images/buttons-bg/choose-bg.png);
 	background-position:right;
 	background-repeat:no-repeat;
 	border:1px solid #ccc;
 	padding:0px 30px 0px 15px;
+	
 }
 .sbSelector:link, .sbSelector:visited, .sbSelector:hover{
 	color: #000;
@@ -47,19 +47,17 @@
 	width: 30px;
 }
 */
+/*
 .sbToggle:hover{
-	background: url(../images/buttons-bg/select-icons.png) 0 -167px no-repeat;
+	background: url(../images/buttons-bg/arrow-down_2.png) 0 -167px no-repeat;
 }
 .sbToggleOpen{
-	background: url(../images/buttons-bg/select-icons.png) 0 -16px no-repeat;
+	background: url(../images/buttons-bg/arrow-down_2.png) 0 -167px no-repeat;
 }
 .sbToggleOpen:hover{
-	background: url(../images/buttons/bg/select-icons.png) 0 -66px no-repeat;
+	background: url(../images/buttons-bg/arrow-down_2.png) 0 -167px no-repeat;
 }
-.sbHolderDisabled{
-	/*background-color: #3C3C3C;
-	border: solid 0px #515151;*/
-}
+*/
 .sbHolderDisabled .sbHolder{
 	
 }
@@ -67,17 +65,16 @@
 	
 }
 .sbOptions{
-	background-color: #212121;
-	/*border: solid 1px orange;*/
+	background-color: #ededed;
 	list-style: none;
 	left: -1px;
 	margin: 0;
-	padding: 0;
+	padding:0;margin:0;
 	position: absolute;
 	top: 30px;
-	width: 120px;
-	z-index: 1;
+	width: 105px;
 	overflow-y: auto;
+	overflow-x:hidden;
 }
 .sbOptions li{
 	padding: 0 7px;
@@ -85,31 +82,44 @@
 .sbOptions a{
 	display: block;
 	outline: none;
-	padding: 2px 0 2px 0px;
+	text-align:left;
+	text-indent:10px;
+	padding:0;margin:0;
 }
 .sbOptions a:link, .sbOptions a:visited{
-	color: #ffffff;
+	color: #808080;
+	font-weight:bold;
 	text-decoration: none;
+	font-size:14px;height:25px;line-height:25px;
+		
+
 }
 .sbOptions a:hover,
 .sbOptions a:focus,
 .sbOptions a.sbFocus{
-	color: red;
+	color: #ffffff;
+	background:#e52425;
+	padding:0;margin:0;
+	height:25px;
+	width:100%;
+	line-height:25px;
 }
 .sbOptions li.last a{
 	border-bottom: none;
+	padding:0;margin:0;
 }
 .sbOptions .sbDisabled{
 	color: #999;
 	display: block;
-	padding: 7px 0 7px 3px;
+	padding:0;margin:0;
 }
 .sbOptions .sbGroup{
 	color: #EBB52D;
 	display: block;
 	font-weight: bold;
-	padding: 7px 0 7px 3px;
+	padding:0;margin:0;
 }
 .sbOptions .sbSub{
 	padding-left: 17px;
 }
+
