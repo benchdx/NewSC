@@ -22,11 +22,8 @@
 	position: absolute;
 	text-indent: 5px;
 	top: 0;
-	/*width: 90px;*/
-	background-image: url(../images/buttons-bg/arrow-down-b.png);
-	background-color:#e7e7e7;
-	background-position:right;
-	background-repeat:no-repeat;
+	background:	url(../images/buttons-bg/tweet-num.png) no-repeat;
+	background-position:center;
 	border:1px solid #ccc;
 	padding:0px 30px 0px 15px;
 }
