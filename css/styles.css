@@ -56,34 +56,7 @@ table.content-wrapper{
 	height:100%;
 	}
 .right-content-b .column{width:650px;}	
-
-.right-content-c{
-	width:559px;float:left;
-	}
 	
-.right-content-c .column{
-	width:426px;
-	}	
-	
-.right-content-c .column .col-dd-d p{
-	width:307px;
-	}	
-	
-.lightbox-form{
-	position:absolute;
-	border:1px solid red;
-	height:100%;
-	width:100px;
-	top:860px;
-	left:445px;
-	padding:0;
-	}	
-.lightbox-image{
-	margin:0 auto;
-	padding:0px;
-	width:559px;
-	height:744px;
-	}	
 .right-content{
 	width:853px;
 	float:right;
@@ -92,6 +65,31 @@ table.content-wrapper{
 	min-height:271px;
 	height:100%;
 	}	
+.right-content-c{
+	width:559px;float:left;
+	}	
+.right-content-c .column{
+	width:426px;
+	}	
+.right-content-c .column .col-dd-d p{
+	width:307px;
+	}
+.lightbox-form{
+	position:absolute;
+	border:0px dotted green;
+	height:100%;
+	width:100px;
+	top:860px;
+	left:445px;
+	padding:0;
+	}
+
+.lightbox-image{
+	margin:0 auto;
+	padding:0px;
+	width:559px;
+	height:744px;
+	}
 	
 .content-container-b table,	
 .content-container table{
@@ -104,7 +102,13 @@ table.content-wrapper{
 	margin:0 auto;padding:0px;
 	width:562px;
 	}
+.content-container-c{
+	margin:0 auto;padding:0px;
+	width:285px;
+	}
 
+	
+	
 .td-column{
 	margin:0 auto;padding:0px;
 	width:271px;
@@ -253,7 +257,8 @@ label{
 	font-size:60px;
 	filter: progid:DXImageTransform.Microsoft.Shadow(direction=135,strength=6,color=212121);
 	text-shadow: 2px 2px 2px #212121;
-}	
+	}
+	
 	
 .banner-image{
 	top:-95px;
@@ -319,9 +324,15 @@ img{
 	overflow:hidden;
 	width:271px;
 	}
+.col-dd-d.autosearch{background:#f7f7f7;border-bottom:1px solid #ffffff;}	
+.col-dd.autosearch {
+	background:#e8e8e8;
+	}	
+.col-dd.autosearch:hover,	
 #td-wrapper-bg .posted,	
 #td-wrapper-bg label,
 #td-wrapper-bg{
+	cursor:pointer;
 	color:#ffffff;
 	background:#e52425;
 	}
@@ -575,7 +586,7 @@ img{
 a.sign-up-link{
 	background:	url(../images/buttons-bg/signupfb-bg.jpg) repeat-x;
 	background-position:center;
-	border:1px solid #ccc;
+	border:1px solid #9b9b9b;
 	cursor:pointer;
 	margin:auto 5px;
 	height:20px;
@@ -600,7 +611,7 @@ a.sign-up-link{
 	background:	url(../images/buttons-bg/signupfb-bg.jpg) repeat-x;
 	/*background:	url(../images/buttons-bg/link-bg-a.png) repeat-x;*/
 	background-position:center;
-	border:1px solid #ccc;
+	border:1px solid #9b9b9b;
 	cursor:pointer;
 	margin:0 auto;
 	text-align:center;
@@ -611,17 +622,43 @@ a.sign-up-link{
 	color:#666666;
 	padding:20px 25px 15px 30px;
 	}
+.link-button-c span{width:350px;border:1px solid red;height:73px;}	
+.link-button-c{
+	background:	url(../images/buttons-bg/signupfb-bg.jpg) repeat-x;
+	/*background:	url(../images/buttons-bg/link-bg-a.png) repeat-x;*/
+	background-position:center;
+	border:1px solid #9b9b9b;
+	cursor:pointer;
+	margin:0 auto;
+	text-align:center;
+	height:73px;
+	line-height:73px;
+	position:relative;
+	font-weight:bold;
+	color:#666666;width:300px;
+	/*width:300px;
+	padding:20px 25px 15px 30px;*/
+	}	
+.link-button-c span,	
+.link-button span{font-weight:bold;padding-left:25px;}	
+.link-button.choose{
+	padding:8px 15px;
+	height: 38px;
+	line-height: 38px;
+	background:	url(../images/buttons-bg/choose-bg-a.png) repeat-x;
+	}	
+	
 	
 .link-button:hover{
 	background: #e6e6e6	url(../images/buttons-bg/link-bg-hover.png) repeat-x;
 	background-position:center;
 	position:relative;
 	}
-	
+		
 .link-button-b{
 	background:	url(../images/buttons-bg/signupfb-bg.jpg) repeat-x;
 	background-position:center;
-	border:1px solid #ccc;
+	border:1px solid #9b9b9b;
 	cursor:pointer;
 	margin:0 auto;
 	text-align:left;
@@ -631,7 +668,14 @@ a.sign-up-link{
 	color:#666666;
 	padding-left:55px;
 	}	
-	
+.link-button-c  img,	
+.link-button   img{
+	position:absolute;
+	top:0;
+	left:0;
+	padding-top:13px;
+	padding-left:16px;
+	}
 .link-button-b   img{
 	position:absolute;
 	margin-left:-40px;
@@ -647,7 +691,7 @@ a.sign-up-link{
 .do-it,	
 .signin{
 	height:48px;
-	border:1px solid #ccc;
+	border:1px solid #9b9b9b;
 	background:none;
 	width:100px;
 	background:	url(../images/buttons-bg/signup-bg.jpg) repeat-x;
@@ -682,7 +726,7 @@ a.sign-up-link{
 	background:	url(../images/buttons-bg/signupfb-bg.jpg) repeat-x;
 	/*background:	url(../images/buttons-bg/link-bg-a.png) repeat-x;*/
 	background-position:center;
-	border:1px solid #ccc;
+	border:1px solid #9b9b9b;
 	cursor:pointer;
 	margin:0 auto;
 	text-align:center;
@@ -697,7 +741,7 @@ a.sign-up-link{
 .edit-prof-button{
 	background:	url(../images/buttons-bg/link-bg-a.png) repeat-x;
 	background-position:center;
-	border:1px solid #ccc;
+	border:1px solid #9b9b9b;
 	cursor:pointer;
 	margin:10px auto;
 	text-align:center;
@@ -788,7 +832,7 @@ a.sign-up-link{
 	height:73px;
 	/*width:auto;
 	min-width:280px;*/
-	border:1px solid #ccc;
+	border:1px solid #9b9b9b;
 	background:	url(../images/buttons-bg/signupfb-bg.jpg) repeat-x;
 	cursor:pointer;
 	color:#666666;
@@ -799,30 +843,35 @@ a.sign-up-link{
 .input-text{
 	margin:0 auto;
 	padding-left:15px;
-	width:260px;
+	width:254px;
 	height:37px;
 	line-height:37px;
-	border:1px solid #ccc;
+	border:1px solid #9b9b9b;
 	}
+.input-text.textb{width:350px;}
+.input-text.textc{width:502px;}
+
 
 input{
 	color:#666666;
 	}
+	
+	
 .label-a{
 	color:#be4848;
 	position:absolute;
-	margin-top:-19px;
+	/*margin-top:-19px;*/
 	margin-left: 20px;
 	padding:0px 10px;
-	height:35px;
-	line-height:35px;
-	border:1px solid #ccc;
+	height:37px;
+	line-height:37px;
+	border:none;
 	background:#f2dedd;
-	}	
-#label-b{
+	}
+.label-a.label-b{
 	background:#ddf0da;
 	color:#39894c;
-	display:none;
+	border:none;
 	}
 	
 	
@@ -927,8 +976,7 @@ input{
 	margin-right:11px;
 	position:relative;
 	}
-	
-.col-dd-d .dt-follow-ef,		
+.col-dd-d .dt-follow-ef,	
 .col-dd-d .dt-follow-de,	
 .col-dd-d .dt-follow-bc,
 .col-dd-d .dt-follow-cd{
@@ -1010,8 +1058,18 @@ input{
 	letter-spacing:-0.20px;
 	}
 
-
-
+/*
+.dt-follow-d a:hover{
+	background:	url(../images/buttons-bg/unfollow.png) no-repeat;
+	text-align:center;
+	margin-top:-23px;
+	margin-right:-23px;
+	position:absolute;
+	text-indent:0;
+	border:0px dotted green;
+	padding:0px 35px 0px 35px;
+	}
+*/
 .dt-follow-a a:hover,
 .dt-follow-d a:hover{
 	background:	url(../images/buttons-bg/unfollow.png) no-repeat;
@@ -1021,28 +1079,24 @@ input{
 	}	
 
 .dt-follow-ef a, .dt-follow-ef a:hover,
-.dt-follow-cd a, .dt-follow-cd a:hover	
-	{
+.dt-follow-cd a, .dt-follow-cd a:hover{
 	right:10px;
 	height:23px;
 	width:23px;
-	}
-
+	}		
+	
 .dt-follow-cd a{
 	background:	url(../images/buttons-bg/xbuttonb.png) no-repeat;
 	}	
 .dt-follow-cd a:hover{
 	background:	url(../images/buttons-bg/xbutton.png) no-repeat;
-	}
-		
+	}	
 .dt-follow-ef a{
 	background:	url(../images/buttons-bg/check7.png) no-repeat;
 	}	
 .dt-follow-ef a:hover{
 	background:	url(../images/buttons-bg/xbuttonb.png) no-repeat;
-	}	
-	
-	
+ 	}	
 	
 .dt-follow-bc a{
 	background:	url(../images/buttons-bg/check5.png) no-repeat;
@@ -1097,7 +1151,6 @@ input{
 	right:10px;
 	/*right:5px;*/
 	}
-	
 .dt-follow-ef a,	
 .dt-follow-de a,
 .dt-follow-bc a,
@@ -1315,4 +1368,81 @@ div.left h3{
 	padding-bottom:8px;
 	}	
 
+p.reach-out{margin:0 auto;padding:0px;width:300px;background:#000;}
 
+
+.col-dd-d.reach{
+	height:auto;
+	}
+.reach label{
+	height:auto;
+	
+	width:240px;
+	}	
+.reach p{
+	height:auto;
+	width:240px;
+	padding:0;
+	max-width:240px;
+	margin-left:0;
+	}	
+
+.reach{
+	width:400px;
+	margin-left:10px;
+	padding-bottom:15px;
+	background:#fff;
+	min-height:130px;
+	overflow:hidden;
+	}	
+.float-left-b{float:left;margin:0;padding:0;}	
+.float-left{
+	float:left;
+	overflow:hidden;
+	margin:0;
+	padding:0;
+	}
+.float-right.fr{margin:0;}	
+.float-right{
+	float:right;
+	margin-right:15px;
+	}	
+	
+.search-c{
+	position:absolute;
+	height:30px;
+	margin:0;
+	padding:0;
+	line-height:30px;
+	left:40px;
+	margin-top:2px;
+	width:384px;
+	}
+
+.button-span{
+	position:relative;
+	z-index:6;
+	top:-30px;
+	left:130px;
+	padding:0;margin:0;
+	}
+
+.text-area{
+	height:50px;
+	width:497px;
+	padding:10px;
+	margin:10px 0px;
+	border:1px solid #9b9b9b;
+	}
+
+.fancy-wrapper{
+	margin:0 auto;padding:0px 0px 5px 0px;
+	width:520px;
+	}	
+	
+	
+.paragraph{
+	padding-bottom:8px;
+	margin:0;
+	}	
+	
