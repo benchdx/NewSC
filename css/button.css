@@ -183,8 +183,42 @@
 	height:50px;
 	padding-left:28px;
 	}
+.fbutton.ybutton{
+	width:68px;
+	height:30px;
+	line-height:25px;
+	text-align:center;
+	font-size:12px;
+	padding:0;margin:0;
+	letter-spacing:-0.5px;
+	}
+	
 .fbutton.xbutton img{
 	position:absolute;
 	top:10px;left:0;
 	padding-left:10px;
 	}
+
+	
+.invitebutton{
+	margin-top:15px;
+	left:300px;
+	position:relative;
+	background:	url(../images/buttons-bg/invite.png) no-repeat;
+	border:none;
+	height:37px;
+	width:119px;
+	color:#ffffff;
+	font-weight:bold;
+	}	
+	
+.invitebutton.update{
+	border:none;
+	position:relative;
+	left:0;
+	}	
+	
+	
+	
+	
+	
