@@ -25,6 +25,22 @@ body{
 	padding:0px;
 	}	
 	
+.wrapper-c{
+	width:950px;
+	margin:0 auto;
+	padding:0;
+	}	
+
+.wrapper-c .topMenu{
+	margin:0 auto;
+	padding:0px;
+	width:950px;
+	height:180px;
+	border:none;
+	position:relative;
+	z-index:7000;
+	}
+	
 .topMenu-container{
 	margin:0 auto;
 	padding:0px;
@@ -104,7 +120,8 @@ table.content-wrapper{
 	}
 .content-container-c{
 	margin:0 auto;padding:0px;
-	width:285px;
+	/*width:285px;*/
+	width:271px;
 	}
 
 	
@@ -873,7 +890,19 @@ input{
 	color:#39894c;
 	border:none;
 	}
+.label-a.label-c{
+	background:#d7d7d7;
+	color:#666666;
+	border:none;
+	}	
 	
+.label-a.label-d{
+	background:#ddf0da;
+	color:#39894c;
+	border:none;
+	margin-left: 105px;
+	margin-top:-7px;
+	}	
 	
 	
 .button{
@@ -948,6 +977,16 @@ input{
 	background:#d5d5d5;
 	border-bottom:none;
 	}
+	
+.col-dd.paragraph{
+	background:#d5d5d5;
+	border-bottom:none;
+	padding:10px;
+	height:100%;
+	color:#666666;
+	}
+	
+	
 .col-dd-d{
 	background:#ebebeb;
 	min-height:67px;
@@ -1144,6 +1183,14 @@ input{
 	/*right:30px;*/
 	right:35px;
 	}	
+
+
+.dt-follow.x-close a{
+	background:	url(../images/buttons-bg/xbuttonc.png) no-repeat;
+	right:5px;
+	margin-top:5px;
+	z-index:12;
+	}
 	
 .dt-follow-a a,	
 .dt-follow a{
@@ -1239,9 +1286,8 @@ h3, h2{
 	text-transform:uppercase;
 	font-size:24px;
 	letter-spacing:-1.2px;
-	
 	}	
-
+h5{font-size:24px;letter-spacing:-1.2px;margin:0;padding:0;}
 	
 .top-header-wrapper.thw-b{
 	float:right;
@@ -1434,6 +1480,12 @@ p.reach-out{margin:0 auto;padding:0px;width:300px;background:#000;}
 	margin:10px 0px;
 	border:1px solid #9b9b9b;
 	}
+	
+.text-area.text-areab{
+	width:250px;
+	height:100px;
+	color:#666666;
+	}	
 
 .fancy-wrapper{
 	margin:0 auto;padding:0px 0px 5px 0px;
@@ -1456,3 +1508,33 @@ p.reach-out{margin:0 auto;padding:0px;width:300px;background:#000;}
 	z-index:8;
 	background:red;
 	}	
+.contc-wrapper-b p{margin:0;padding:3px 0px;}
+.contc-wrapper-b{padding:10px;}	
+.contc-wrapper-b .fancybox{padding:10px;line-height:25px;height:25px;position:relative;margin-left:-10px;top:5px;}	
+.contc-wrapper{
+	margin:0;
+	padding:0;
+	width:270px;
+	/*min-height:403px;*/
+	border:1px solid #ccc;
+	background:#e8e8e8;
+	}	
+.contc-wrapper.contd{border:none;position:relative;right:0;right:-300px;}
+.contc-wrapper .col-dd{border-bottom:none;}	
+.par{line-height:26px;height:26px;width:30px;text-align:center;padding-left:10px;}
+
+.cont-menu{
+	min-width:600px;
+	position:relative;
+	padding:0;
+	text-align:left;margin:0;
+	}
+.cont-menu .playbook-menu{
+	float:left;
+	margin:0;
+	padding:0;
+	}
+.cont-menu .playbook-menu a.playbookMenu-link-b {
+	font-size:18px;
+	padding:0px 20px 0px 0px;
+	}
