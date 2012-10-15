@@ -24,8 +24,10 @@
 			<form name="form1" method="post" action="">
 				<p><button type="submit" class="fbutton xbutton" name="sign in with facebook"><img src="images/network-icon/facebook4.png" />SIGN IN WITH FACEBOOK</button></p>
 				<p><button type="submit" class="fbutton xbutton" name="sign in with facebook"><img src="images/network-icon/tweet3.png" />SIGN IN WITH TWITTER</button></p>
-				<p><input class="input-text" type="text" value="Email" onFocus="if(this.value == 'Email') {this.value = '';}" onBlur="if (this.value == '') {this.value = 'Email';}" /></p>
-				<p><input class="input-text" type="text" value="Password" onFocus="if(this.value == 'Password') {this.value = '';}" onBlur="if (this.value == '') {this.value = 'Password';}" /></p>
+				<p><input class="input-text" type="text" value="Email" onFocus="if(this.value == 'Email') {this.value = '';}" onBlur="if (this.value == '') {this.value = 'Email';}" /><span id="label-b(css disabled)" class="label-a">Not a valid email</span>
+				</p>
+				<p><input class="input-text" type="text" value="Password" onFocus="if(this.value == 'Password') {this.value = '';}" onBlur="if (this.value == '') {this.value = 'Password';}" /><span id="label-b(css disabled)" class="label-a">Use only letters and numbers</span>
+				</p>
 				<p><br /></p>
 				<input value="SAVE" type="button" class="fbutton" /><p class="button-span"><b><a href="#">Forgot Password?</a></b></p>
 			</form>
