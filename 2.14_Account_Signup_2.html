@@ -8,7 +8,16 @@
 <link href="css/topmenu2.css" rel="stylesheet" type="text/css" media="screen,projection" charset="utf-8" />
 <link href="css/footer.css" rel="stylesheet" type="text/css" media="screen,projection" charset="utf-8" />
 <link href="css/button.css" rel="stylesheet" type="text/css" media="screen,projection" charset="utf-8" />
+<link href="css/jquery.selectbox_fancy.css" rel="stylesheet" type="text/css" media="screen,projection" charset="utf-8" />
+
+<link rel="stylesheet" type="text/css" href="fancy/source/jquery.fancybox.css?v=2.0.6" media="screen" />
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
 <title>2.14_Account_Signup_2</title>
+
+<style type="text/css">
+.fancybox-iframe {width: 580px;}
+</style>
 
 </head>
 
@@ -24,25 +33,107 @@
 			<br />
 			
 			<form name="form1" method="post" action="">
-				<p>
-				<h2>PROFESSIONAL</h2>
-				<input class="input-text" type="text" value="Minor leagues, international pro, etc." onFocus="if(this.value == 'Minor leagues, international pro, etc.') {this.value = '';}" onBlur="if (this.value == '') {this.value = 'Minor leagues, international pro, etc.';}" /></p>
-				<p>
-				<h2>COLLEGE</h2>
-				<input class="input-text" type="text" value="School Name" onFocus="if(this.value == 'School Name') {this.value = '';}" onBlur="if (this.value == '') {this.value = 'School Name';}" /></p>
-				<p>
-				<h2>HIGH SCHOOL</h2>
+				
+				<div class="header-container-d"><h2>PROFESSIONAL</h2></div>
+				<input class="input-text" type="text" value="Minor leagues, international pro, etc." onFocus="if(this.value == 'Minor leagues, international pro, etc.') {this.value = '';}" onBlur="if (this.value == '') {this.value = 'Minor leagues, international pro, etc.';}" />
+				<br /><br />
+				<div class="header-container-d"><h2>COLLEGE</h2></div>
+				<input class="input-text" type="text" value="School Name" onFocus="if(this.value == 'School Name') {this.value = '';}" onBlur="if (this.value == '') {this.value = 'School Name';}" />
+				<br /><br />
+				<div class="header-container-d"><h2>HIGH SCHOOL</h2></div>
 				<input class="input-text" type="text" value="Meadowcreek High School (GA)" onFocus="if(this.value == 'Meadowcreek High School (GA)') {this.value = '';}" onBlur="if (this.value == '') {this.value = 'Meadowcreek High School (GA)';}" />
-				<div class="col-dd">
-					<img src="images/logo-icon/atlanta.jpg" /><label>Meadowcreek High School</label>
+				<div class="contc-wrapper">
+					<div class="col-dd">
+						<img src="images/logo-icon/atlanta.jpg" /><label>Meadowcreek High School</label>
+					</div>
+					<div class="contc-wrapper-b">
+						<div>
+							<input type="checkbox" />&nbsp; <label>Player</label>
+							<input type="checkbox" />&nbsp; <label>Coach</label>
+						</div>
+						<br/>
+						<div>
+							<div class="float-left-b">
+								<select name="year" id="year" tabindex="2" >
+										<option >Year</option>
+										<option>2012</option>
+										<option>2011</option>
+										<option>2010</option>
+								</select>
+								<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+								<script type="text/javascript" src="js/jquery.selectbox-0.2.js"></script>
+								<script type="text/javascript">
+								$(function () {
+									$("#year").selectbox();
+								});
+								</script>
+							</div>
+							<div class="float-left-b"><div class="par"><label>to</label></div></div>
+							<div class="float-left-b">
+								<select name="year" id="yearb" tabindex="2" >
+										<option >Year</option>
+										<option>2012</option>
+										<option>2011</option>
+								</select>
+								<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+								<script type="text/javascript" src="js/jquery.selectbox-0.2.js"></script>
+								<script type="text/javascript">
+								$(function () {
+									$("#yearb").selectbox();
+								});
+								</script>
+							</div>
+						</div>
+						<div style="clear:both;"><br /></div>
+						<div>
+							<div class="float-left-b">
+								<select name="year" id="sport" tabindex="2" >
+										<option >Sport</option>
+										<option >Sport</option>
+										<option >Sport</option>
+								</select>
+								<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+								<script type="text/javascript" src="js/jquery.selectbox-0.2.js"></script>
+								<script type="text/javascript">
+								$(function () {
+									$("#sport").selectbox();
+								});
+								</script>
+							</div>
+						</div>
+						<div style="clear:both;"><br /></div>
+						<div>
+							<p><label>Show team content in my profile from:</label></p>
+							<p><input type="checkbox" />&nbsp; Just the years I played</p>
+							<p><input type="checkbox" />&nbsp; All years</p>
+							<p><input type="checkbox" />&nbsp; None</p>
+						</div>
+						<div><p><span>&nbsp;<a class="fancybox fancybox.iframe" href="3.21_Lightbox.html"><img src="images/buttons-bg/add2.jpg"  /></a></span>Add another sport for this school</p></div>
+						
+						<script type="text/javascript" src="fancy/source/jquery.fancybox.js?v=2.0.6"></script>
+						<script type="text/javascript">
+							$(document).ready(function() {
+								$('.fancybox').fancybox();
+							});
+						</script>
+						<div style="clear:both;"><br /></div>
+						<div style="text-align:right;">
+							<button type="submit" class="fbutton ybutton" name="sign in with facebook">Done</button>&nbsp;
+							<button type="submit" class="fbutton ybutton" name="sign in with facebook">Cancel</button>
+						</div>
+					</div>
 				</div>
+				
+				<br /><br />
+				<div class="header-container-b"><h5>Jr. HIGH / MIDDLE SCHOOL</h5></div>
+				<input class="input-text" type="text" value="School Name" onFocus="if(this.value == 'School Name') {this.value = '';}" onBlur="if (this.value == '') {this.value = 'School Name';}" />
+				<br /><br />
+				<div class="header-container-d"><h2>OTHER</h2></div>
+				<input class="input-text" type="text" value="AAU, rec leagues, etc." onFocus="if(this.value == 'AAU, rec leagues, etc.') {this.value = '';}" onBlur="if (this.value == '') {this.value = 'AAU, rec leagues, etc.';}" />
+				<br /><br />
 				<div>
-					<input type="checkbox" />&nbsp; <label>Player</label>
-					<input type="checkbox" />&nbsp; <label>Coach</label>
-				</div>
-				</p>
-				<p><br /></p>
 				<input value="SAVE" type="button" class="fbutton" /><p class="button-span">or &nbsp;<b>skip to the next page</b></p>
+				</div>
 			</form>
 		</div>
 	</div><!--end class wrapper -->
